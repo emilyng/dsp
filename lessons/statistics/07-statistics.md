@@ -86,14 +86,22 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
+#### Bayes' Thereom: 
+![Bayes' Theorem](https://latex.codecogs.com/gif.latex?P(A|B)&space;=&space;\frac{P(A)P(B|A)}{P(B)})
+
+![Q Details](https://latex.codecogs.com/gif.latex?$$P(fraternal)&space;=&space;1/125&space;\qquad,\qquad&space;P(identical)&space;=&space;1/300$$)
+
+![P1](https://latex.codecogs.com/gif.latex?\begin{align*}&space;P(twin)&space;&&space;=&space;P(fraternal)&space;&plus;&space;P(identical)&space;\\&space;&&space;=&space;\frac{1}{125}&space;&plus;&space;\frac{1}{300}&space;\\&space;&&space;=&space;17/1500&space;\\&space;&&space;=&space;0.0113&space;\end{align})
+
+![Solution](https://latex.codecogs.com/gif.latex?\begin{align*}&space;P(identical|twin)&space;&&space;=&space;\frac{P(identical)P(twin|identical)}{P(twin)}&space;\\&space;&&space;=&space;\frac{(1/300)(1)}{0.0113}&space;\\&space;&&space;=&space;29.5&space;\end{align})
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentists and Bayesian statistic approaches differs in the the frequentists approach a problem with a set distribution in mind while a Bayesian statistics approach does not begin with an initial distibution in mind. In contrast, the Bayesian approach builds an estimate of the distribution based on prior knowledge and changes continuously as additional information is gathered. 
 
 ---
 
